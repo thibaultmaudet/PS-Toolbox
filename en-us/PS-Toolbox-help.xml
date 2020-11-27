@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helpItems schema="maml" xmlns="http://msh">
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
+      <command:name>Get-OsVersion</command:name>
+      <command:verb>Get</command:verb>
+      <command:noun>OsVersion</command:noun>
+      <maml:description>
+        <maml:para>Get OS version informations.</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>The Get-OsVersion function is an equivalent to winver.exe to display the OS version informations.</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Get-OsVersion</maml:name>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:returnValues>
+      <command:returnValue>
+        <dev:type>
+          <maml:name>WindowsVersion</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para></maml:para>
+        </maml:description>
+      </command:returnValue>
+    </command:returnValues>
+    <command:examples>
+        <command:example>
+          <maml:title>-------------------------- Exemple 1 --------------------------</maml:title>
+          <dev:code>PS C:\&gt;Get-OsVersion
+
+
+            ProductName            : Windows 10 Enterprise
+            EditionId              : Enterprise
+            ReleaseId              : 2004
+            Build                  : 19041
+            InstallDate            : 03/09/2020 10:16:00
+            RegisteredOrganization : DB Schenker
+            RegisteredOwner        : DB Schenker
+          </dev:code>
+          <dev:remarks>
+            <maml:para>Get the OS version informations.</maml:para>
+          </dev:remarks>
+        </command:example>
+      </command:examples>
+  </command:command>
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
+      <command:name>Get-OsVersion</command:name>
+      <command:verb>Get</command:verb>
+      <command:noun>OsVersion</command:noun>
+      <maml:description>
+        <maml:para>Get OS version informations.</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>The Get-OsVersion function is an equivalent to winver.exe to display the OS version informations.</maml:para>
+    </maml:description>
+    <command:inputTypes>
+      <command:inputType>
+        <dev:type>
+          <maml:name>None</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para></maml:para>
+        </maml:description>
+      </command:inputType>
+    </command:inputTypes>
+    <command:returnValues>
+      <command:returnValue>
+        <dev:type>
+          <maml:name>WindowsVersion</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para></maml:para>
+        </maml:description>
+      </command:returnValue>
+    </command:returnValues>
+    <command:examples>
+        <command:example>
+          <maml:title>-------------------------- Example 1 --------------------------</maml:title>
+          <dev:code>PS C:\&gt;Get-OsVersion
+
+
+            ProductName            : Windows 10 Enterprise
+            EditionId              : Enterprise
+            ReleaseId              : 2004
+            Build                  : 19041
+            InstallDate            : 03/09/2020 10:16:00
+            RegisteredOrganization : DB Schenker
+            RegisteredOwner        : DB Schenker
+          </dev:code>
+          <dev:remarks>
+            <maml:para>Get the OS version informations.</maml:para>
+          </dev:remarks>
+        </command:example>
+      </command:examples>
+  </command:command>
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
+      <command:name>Get-WifiProfiles</command:name>
+      <command:verb>Get</command:verb>
+      <command:noun>WifiProfiles</command:noun>
+      <maml:description>
+        <maml:para>Get the list of Wi-Fi profiles saved in the computer.</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>This command list all Wi-Fi profiles saved in your computer.</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Get-WifiProfiles</maml:name>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:inputTypes>
+      <command:inputType>
+        <dev:type>
+          <maml:name>None</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para></maml:para>
+        </maml:description>
+      </command:inputType>
+    </command:inputTypes>
+    <command:returnValues>
+      <command:returnValue>
+        <dev:type>
+          <maml:name>WiFiProfiles</maml:name>
+        </dev:type>
+        <maml:description>
+          <maml:para></maml:para>
+        </maml:description>
+      </command:returnValue>
+    </command:returnValues>
+    <command:examples>
+        <command:example>
+          <maml:title>-------------------------- Example 1 --------------------------</maml:title>
+          <dev:code>PS C:\&gt;Get-WifiProfiles
+
+
+            SSID
+            ----
+            Network1
+            Network2
+            Network3
+          </dev:code>
+          <dev:remarks>
+            <maml:para>Get all Wi-Fi profiles saved in the computer.</maml:para>
+          </dev:remarks>
+        </command:example>
+      </command:examples>
+  </command:command>
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <command:details>
+    <command:name>Get-WifiPassword</command:name>
+    <command:verb>Get</command:verb>
+    <command:noun>WifiPassword</command:noun>
+    <maml:description>
+      <maml:para>Get the list of Wi-Fi profiles with their associated passwords saved in the computer.</maml:para>
+    </maml:description>
+  </command:details>
+  <maml:description>
+    <maml:para>Display all Wi-Fi profile passwords saved in your computer.</maml:para>
+  </maml:description>
+  <command:syntax>
+    <command:syntaxItem>
+      <maml:name>Get-WifiPassword</maml:name>
+      <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
+        <maml:name>ListAvailable</maml:name>
+        <maml:Description>
+          <maml:para>The list of Wi-Fi profiles to get their associated passwords.</maml:para>
+        </maml:Description>
+        <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+        <dev:type>
+          <maml:name>String[]</maml:name>
+          <maml:uri />
+        </dev:type>
+        <dev:defaultValue>None</dev:defaultValue>
+      </command:parameter>
+    </command:syntaxItem>
+  </command:syntax>
+  <command:parameter required="false" variableLength="true" globbing="false" pipelineInput="False" position="1" aliases="none">
+    <maml:name>ListAvailable</maml:name>
+    <maml:Description>
+      <maml:para>The list of Wi-Fi profiles to get their associated passwords.</maml:para>
+    </maml:Description>
+    <command:parameterValue required="false" variableLength="false">String</command:parameterValue>
+    <dev:type>
+      <maml:name>String[]</maml:name>
+      <maml:uri />
+    </dev:type>
+    <dev:defaultValue>None</dev:defaultValue>
+  </command:parameter>
+  <command:inputTypes>
+    <command:inputType>
+      <dev:type>
+        <maml:name>None</maml:name>
+      </dev:type>
+      <maml:description>
+        <maml:para></maml:para>
+      </maml:description>
+    </command:inputType>
+  </command:inputTypes>
+  <command:returnValues>
+    <command:returnValue>
+      <dev:type>
+        <maml:name>WiFiPasswords</maml:name>
+      </dev:type>
+      <maml:description>
+        <maml:para></maml:para>
+      </maml:description>
+    </command:returnValue>
+  </command:returnValues>
+  <command:examples>
+      <command:example>
+        <maml:title>-------------------------- Example 2 --------------------------</maml:title>
+        <dev:code>PS C:\&gt;Get-WifiPassword
+
+
+          SSID     Pasword
+          ----     -------
+          Network1 Password1
+          Network2 Password2
+          Network3 Password3
+        </dev:code>
+        <dev:remarks>
+          <maml:para>Get all Wi-Fi passwords saved in the computer.</maml:para>
+        </dev:remarks>
+      </command:example>
+      <command:example>
+        <maml:title>-------------------------- Example 2 --------------------------</maml:title>
+        <dev:code>PS C:\&gt;Get-WifiPassword -ListAvailable Network1, Network3
+
+
+          SSID     Pasword
+          ----     -------
+          Network1 Password1
+          Network3 Password3
+        </dev:code>
+        <dev:remarks>
+          <maml:para>Get only some Wi-Fi passwords saved in the computer.</maml:para>
+        </dev:remarks>
+      </command:example>
+    </command:examples>
+  </command:command>
+</helpItems>
