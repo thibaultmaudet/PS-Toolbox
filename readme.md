@@ -81,3 +81,14 @@ You can also pass the value by a pipeline.
 
 1024
 ```
+
+### Get-Percentage
+
+This function allows to calculate a percentage.
+
+
+```
+Get-Percentage -FirstNumber 250 -SecondNumber 37
+
+85,2
+```

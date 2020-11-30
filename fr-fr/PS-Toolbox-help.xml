@@ -193,6 +193,93 @@ RegisteredOwner        :
   </command:command>
   <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
     <command:details>
+      <command:name>Get-Percentage</command:name>
+      <command:verb>Get</command:verb>
+      <command:noun>Percentage</command:noun>
+      <maml:description>
+        <maml:para>Calculer un pourcentage grâce à deux valeurs saisies.</maml:para>
+      </maml:description>
+    </command:details>
+    <maml:description>
+      <maml:para>Utiliser cette fonction pour calculer un pourcentage.</maml:para>
+    </maml:description>
+    <command:syntax>
+      <command:syntaxItem>
+        <maml:name>Get-Percentage</maml:name>
+        <command:parameter required="true" variableLength="false" pipelineInput="true (ByValue)">
+          <maml:name>FirstNumber</maml:name>
+          <maml:description>
+            <maml:para>Le premier nombre à utiliser pour calculer un pourcentage.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">double</command:parameterValue>
+          <dev:type>
+            <maml:name>double</maml:name>
+            <maml:uri />
+          </dev:type>
+        </command:parameter>
+        <command:parameter required="true" variableLength="false" pipelineInput="false">
+          <maml:name>SecondNumber</maml:name>
+          <maml:description>
+            <maml:para>Le second nombre à utiliser pour calculer un pourcentage.</maml:para>
+          </maml:description>
+          <command:parameterValue required="true" variableLength="false">double</command:parameterValue>
+          <dev:type>
+            <maml:name>double</maml:name>
+            <maml:uri />
+          </dev:type>
+        </command:parameter>
+      </command:syntaxItem>
+    </command:syntax>
+    <command:parameters>
+      <command:parameter required="true" variableLength="false" pipelineInput="false">
+        <maml:name>FirstNumber</maml:name>
+        <maml:description>
+          <maml:para>Le premier nombre à utiliser pour calculer le pourcentage.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">double</command:parameterValue>
+        <dev:type>
+          <maml:name>double</maml:name>
+          <maml:uri />
+        </dev:type>
+      </command:parameter>
+      <command:parameter required="true" variableLength="false" pipelineInput="false">
+        <maml:name>SecondNumber</maml:name>
+        <maml:description>
+          <maml:para>Le second nombre à utiliser pour calculer le pourcentage.</maml:para>
+        </maml:description>
+        <command:parameterValue required="true" variableLength="false">double</command:parameterValue>
+        <dev:type>
+          <maml:name>double</maml:name>
+          <maml:uri />
+        </dev:type>
+      </command:parameter>
+    </command:parameters>
+    <command:returnValues>
+      <command:returnValue>
+        <dev:type>
+          <maml:name>double</maml:name>
+          <maml:uri />
+        </dev:type>
+        <maml:description>
+          <maml:para></maml:para>
+        </maml:description>
+      </command:returnValue>
+    </command:returnValues>
+    <command:examples>
+      <command:example>
+        <maml:title>-------------------------- Exemple 1 --------------------------</maml:title>
+        <dev:code>PS C:\&gt;Get-Percentage -FirstNumber 250 -SecondNumber 37
+
+85,2
+        </dev:code>
+        <dev:remarks>
+          <maml:para>Calculer un pourcentage en fonction de deux valeurs.</maml:para>
+        </dev:remarks>
+      </command:example>
+    </command:examples>
+  </command:command>
+  <command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+    <command:details>
       <command:name>Get-WifiProfiles</command:name>
       <command:verb>Get</command:verb>
       <command:noun>WifiProfiles</command:noun>
