@@ -60,3 +60,24 @@ SSID     Pasword
 Network1 Password1
 Network3 Password3
 ```
+
+## Other tools
+### Convert-DataBytes
+
+Use this function to convert a stockage unit to an another.
+
+```powershell
+Convert-DataBytes -Value 1 -From KB -To Bytes
+
+
+1024
+```
+
+You can also pass the value by a pipeline.
+
+```powershell
+1 | Convert-DataBytes -From KB -To Bytes
+
+
+1024
+```
